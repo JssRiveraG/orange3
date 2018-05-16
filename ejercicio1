@@ -1,0 +1,6 @@
+import re
+
+expr = "hg=a*25"
+
+a= (re.findall("\s*(\d+|\w+|.)", expr))
+print (a[0])
